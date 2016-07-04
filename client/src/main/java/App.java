@@ -1,6 +1,6 @@
 public class App {
 
     public static void main(String[] args) {
-        System.out.print("dsdsds");
+        System.out.println("dsdsds");
     }
 }
