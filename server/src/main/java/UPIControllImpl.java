@@ -22,6 +22,6 @@ public class UPIControllImpl extends UnicastRemoteObject implements UPIControll 
 
     public void setValueOnPin_0(Integer value) {
         System.out.println("Value: " + value);
-        SoftPwm.softPwmWrite(75, value);
+        SoftPwm.softPwmWrite(24, value);
     }
 }
