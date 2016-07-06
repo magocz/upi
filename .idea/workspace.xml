@@ -9,8 +9,7 @@
     <list default="true" id="3d1a5c48-42ef-4e86-bf30-107aad8bd3a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/upi.jar" afterPath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/upi.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/App.java" afterPath="$PROJECT_DIR$/client/src/main/java/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/Server.java" afterPath="$PROJECT_DIR$/server/src/main/java/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" afterPath="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" />
     </list>
     <ignored path="upi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UPIControllImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UPIControllImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -99,9 +98,9 @@
         <option value="$PROJECT_DIR$/common/src/main/java/UPIControll.java" />
         <option value="$MAVEN_REPOSITORY$/com/pi4j/pi4j-core/1.0/pi4j-core-1.0.jar!/com/pi4j/io/gpio/impl/PinImpl.class" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
-        <option value="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" />
       </list>
     </option>
   </component>
@@ -842,7 +841,7 @@
       <option name="presentableId" value="Default" />
       <updated>1467660419326</updated>
       <workItem from="1467660420469" duration="1990000" />
-      <workItem from="1467832029364" duration="12296000" />
+      <workItem from="1467832029364" duration="12441000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1467661099877</created>
@@ -1033,11 +1032,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467845040587</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="test gpio&#10;">
+      <created>1467845474959</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1467845474959</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14286000" />
+    <option name="totallyTimeSpent" value="14431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1366,10 +1372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1386,10 +1392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/Server.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

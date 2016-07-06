@@ -17,6 +17,6 @@ public class UPIControllImpl extends UnicastRemoteObject implements UPIControll 
 
     public void setValueOnPin_0(Integer value) {
         System.out.println("Value: " + value);
-        com.pi4j.wiringpi.Gpio.pwmWrite(12, value);
+        com.pi4j.wiringpi.Gpio.pwmWrite(19, value);
     }
 }
