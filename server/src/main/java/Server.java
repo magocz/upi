@@ -14,7 +14,7 @@ public class Server {
             pin.high();
             Thread.sleep(0, 1000);
             pin.low();
-            Thread.sleep(19);
+            Thread.sleep(24);
 
         }
       /*  try {
