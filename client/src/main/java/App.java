@@ -8,7 +8,13 @@ public class App {
             int host = 7007;
             Registry registry = LocateRegistry.getRegistry("192.168.1.31", host);
             UPIControll stub = (UPIControll) registry.lookup("upi_server");
-            stub.setValueOnPin_0(35);
+            /*for(int i = 500 ; i < 1000 ; i++){
+                stub.setValueOnPin_0(i);
+                Thread.sleep(500);
+            }*/
+            stub.setValueOnPin_0(22);
+
+
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
