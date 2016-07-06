@@ -6,7 +6,7 @@ public class Server {
     public static void main(String args[]) {
 
         try {
-            int host = 1234;
+            int host = 7007;
             UPIControll obj = new UPIControllImpl();
             // Bind the remote object's stub in the registry
             Registry registry = LocateRegistry.createRegistry(host);
