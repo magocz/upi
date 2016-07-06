@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d1a5c48-42ef-4e86-bf30-107aad8bd3a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/upi_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/itf/MANIFEST.MF" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/deploy/artifacts/server_jar/server.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/deploy/artifacts/test/test.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/deploy/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/common/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/upi.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="upi.iws" />
@@ -938,7 +935,7 @@
       <option name="presentableId" value="Default" />
       <updated>1467660419326</updated>
       <workItem from="1467660420469" duration="1990000" />
-      <workItem from="1467832029364" duration="1828000" />
+      <workItem from="1467832029364" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1467661099877</created>
@@ -968,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467832724424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test gpio&#10;">
+      <created>1467833866630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1467833866630</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3818000" />
+    <option name="totallyTimeSpent" value="3909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
