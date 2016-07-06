@@ -14,10 +14,9 @@ public class UPIControllImpl extends UnicastRemoteObject implements UPIControll 
 
     public UPIControllImpl() throws RemoteException {
         com.pi4j.wiringpi.Gpio.pwmSetMode(com.pi4j.wiringpi.Gpio.PWM_MODE_MS);
-        com.pi4j.wiringpi.Gpio.pwmSetClock(384);
         Gpio.wiringPiSetup();
-        SoftPwm.softPwmCreate(19, 0, 1000);
-
+        SoftPwm.softPwmCreate(19, 0, 50);
+        SoftPwm.softPwmWrite(19, 3);
     }
 
     public void setValueOnPin_0(Integer value) {
