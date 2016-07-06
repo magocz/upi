@@ -10,8 +10,8 @@ public class Server {
         com.pi4j.wiringpi.Gpio.pinMode(12, com.pi4j.wiringpi.Gpio.PWM_OUTPUT);
         com.pi4j.wiringpi.Gpio.pwmSetMode(com.pi4j.wiringpi.Gpio.PWM_MODE_MS);
         com.pi4j.wiringpi.Gpio.pwmSetClock(384);
-        com.pi4j.wiringpi.Gpio.pwmSetRange(25);
-        com.pi4j.wiringpi.Gpio.pwmWrite(12, 2);
+        com.pi4j.wiringpi.Gpio.pwmSetRange(1000);
+        com.pi4j.wiringpi.Gpio.pwmWrite(19, 75);
 
         try {
             int host = 7007;
