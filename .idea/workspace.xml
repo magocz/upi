@@ -9,7 +9,6 @@
     <list default="true" id="3d1a5c48-42ef-4e86-bf30-107aad8bd3a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/upi.jar" afterPath="$PROJECT_DIR$/server/deploy/artifacts/upi_jar/upi.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/App.java" afterPath="$PROJECT_DIR$/client/src/main/java/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" afterPath="$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java" />
     </list>
     <ignored path="upi.iws" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="UPIControllImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -842,7 +841,7 @@
       <option name="presentableId" value="Default" />
       <updated>1467660419326</updated>
       <workItem from="1467660420469" duration="1990000" />
-      <workItem from="1467832029364" duration="13838000" />
+      <workItem from="1467832029364" duration="13923000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1467661099877</created>
@@ -1075,11 +1074,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467846919566</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="test gpio&#10;">
+      <created>1467847018734</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1467847018734</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15828000" />
+    <option name="totallyTimeSpent" value="15913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1430,8 +1436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/UPIControllImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="374">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
