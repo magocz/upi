@@ -8,7 +8,7 @@ public class UPIControllImpl extends UnicastRemoteObject implements UPIControll 
 
     public UPIControllImpl() throws RemoteException {
         Gpio.wiringPiSetup();
-        SoftPwm.softPwmCreate(0, 0, 20);
+        SoftPwm.softPwmCreate(0, 0, 40);
     }
 
     public void setValueOnPin_0(Integer value) {
