@@ -12,7 +12,7 @@ public class App {
                 stub.setValueOnPin_0(i);
                 Thread.sleep(500);
             }*/
-            stub.setValueOnPin_0(700);
+            stub.setValueOnPin_0(45);
 
 
         } catch (Exception e) {

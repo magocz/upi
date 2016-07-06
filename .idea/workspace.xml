@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -842,7 +842,7 @@
       <option name="presentableId" value="Default" />
       <updated>1467660419326</updated>
       <workItem from="1467660420469" duration="1990000" />
-      <workItem from="1467832029364" duration="13738000" />
+      <workItem from="1467832029364" duration="13838000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1467661099877</created>
@@ -1068,11 +1068,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467846697502</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="test gpio&#10;">
+      <created>1467846919566</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1467846919566</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15728000" />
+    <option name="totallyTimeSpent" value="15828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1414,7 +1421,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
