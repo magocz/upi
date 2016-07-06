@@ -4,7 +4,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class Server {
     public static void main(String args[]) {
-
+        System.setProperty("java.rmi.server.hostname","192.168.1.31");
         try {
             int host = 7007;
             UPIControll obj = new UPIControllImpl();
