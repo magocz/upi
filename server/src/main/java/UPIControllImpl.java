@@ -12,12 +12,11 @@ public class UPIControllImpl extends UnicastRemoteObject implements UPIControll 
 
     public UPIControllImpl() throws RemoteException {
         final GpioController gpio = GpioFactory.getInstance();
-        pwmOutput = gpio.provisionPwmOutputPin(RaspiPin.GPIO_26);
-
+        pwmOutput = gpio.provisionPwmOutputPin(RaspiPin.GPIO_01, "Servo pulse NEUTRAL");
     }
 
     public void setValueOnPin_0(Integer value) {
         System.out.println("Value: " + value);
-        pwmOutput.setPwm(value);
+        com.pi4j.wiringpi.Gpio.pwmWrite(12, value);
     }
 }
