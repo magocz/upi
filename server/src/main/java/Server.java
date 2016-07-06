@@ -7,11 +7,11 @@ public class Server {
         System.setProperty("java.rmi.server.hostname", "192.168.1.31");
         com.pi4j.wiringpi.Gpio.wiringPiSetupGpio();
 
-        com.pi4j.wiringpi.Gpio.pinMode(12, com.pi4j.wiringpi.Gpio.PWM_OUTPUT);
+        com.pi4j.wiringpi.Gpio.pinMode(19, com.pi4j.wiringpi.Gpio.PWM_OUTPUT);
         com.pi4j.wiringpi.Gpio.pwmSetMode(com.pi4j.wiringpi.Gpio.PWM_MODE_MS);
         com.pi4j.wiringpi.Gpio.pwmSetClock(384);
         com.pi4j.wiringpi.Gpio.pwmSetRange(1000);
-        com.pi4j.wiringpi.Gpio.pwmWrite(24, 75);
+        com.pi4j.wiringpi.Gpio.pwmWrite(19, 75);
 
         try {
             int host = 7007;
